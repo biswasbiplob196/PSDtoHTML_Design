@@ -1,0 +1,236 @@
+.navbarContent {
+    padding: 3px;
+    margin: 5px;
+    color: black;
+}
+.nav-bg{
+	background: #000;
+}
+
+#banner {
+    background-color: blueviolet;
+    padding-top: 100px;
+
+
+}
+
+.logo_image {
+    vertical-align: middle;
+    border-style: none;
+    width: 70%;
+    height: 100%;
+
+}
+
+.nav-link {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px
+}
+
+.feature {
+    background-color: #bff4f8;
+/*
+    margin-top: 80px;
+    padding-top: 50px;
+    
+*/
+	padding-bottom: 50px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+    color: blueviolet;
+	padding: 5px 0;
+}
+
+.heading p {
+    padding: 0px;
+    margin: 0px;
+	color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.jumbotron h1 {
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Slab', serif;
+}
+
+.jumbotron h1 span {
+    font-weight: 400;
+}
+
+.jumbotron p {
+    margin-bottom: 45px;
+    font-size: 20px;
+}
+
+.banner_button {
+    padding: 13px 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    margin-right: 8px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.media .icon-circle {
+
+    /*    
+    margin-top: 16px;
+    border: 3px solid blue;
+    padding: .5px;*/
+	width: 65px;
+	height: 65px;
+	line-height: 65px;
+	text-align: center;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1.5px;
+	font-size: 32px;
+	color: #770DDB;
+}
+
+.about {
+    position: relative;
+    margin-top: -100px;
+
+    background-color: aliceblue;
+    margin-bottom: 100px;
+    color: black;
+	padding: 50px;
+}
+
+/*
+.about_app h1 {
+    color: blueviolet;
+    font-family: 'Roboto Slab', serif;
+    font-size: 43px;
+    font-weight: 400;
+    margin-bottom: 13px;
+    
+
+}
+*/
+/*
+
+.about_app p {
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    margin-bottom: 13px;
+
+
+}
+*/
+
+.price_box {
+    border: 1px solid windowframe;
+    background-color: #fff;
+	padding: 30px;
+
+}
+
+.price_title h3 {
+
+    font-size: 28px;
+    padding: 5px;
+    color: blueviolet;
+    font-weight: 300;
+}
+
+.pricing_bottom {
+
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    padding: 5px 30px 30px 30px;
+}
+
+.play-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: all linear 0.3s;
+}
+.play-button:hover {
+    transform: translate(-50%, -50%) scale(1.5);
+}
+.pricing_bottom ul li {
+    font-weight: 400;
+    line-height: 2.5;
+    position: relative;
+    color: #666;
+}
+
+.price_box {
+    border: none;
+    padding: 12px;
+    margin-right: 2px;
+    transition: all linear 0.4s;
+}
+.price_box:hover {
+    margin-top: -20px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #fff;
+    opacity: 0.9;
+}
+
+.play {
+    left: 36%;
+    top: 21%;
+    position: absolute;
+    font-size: 47px;
+}
+.btn1{
+	background-color: blueviolet;
+	color: lightgray;
+	font-size: 21px;
+	padding: 7px;
+}
+.section{
+	padding: 50px 0;
+	
+	
+}
+.price_title h5{
+	font-size: 24px;
+	line-height: 29px;
+	color: blueviolet;
+	padding: 2px 0px;
+}
+.price_title h2{
+	font-size: 58px;
+	line-height: 73px;
+	padding: 2px 0px;
+	font-weight: 300;
+}
+canvas{
+	position: absolute;
+    margin: auto;
+    border: 2px solid white;
+	display: block;
+	vertical-align: bottom;
+	width: 100%;
+	height: 100%;	
+}
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
